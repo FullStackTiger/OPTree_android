@@ -1,0 +1,38 @@
+<resources>
+    <!-- <string name="app_name">O&amp;P Tree</string>-->
+
+    <string name="app_name">OPTree</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="err_confirm_Code">Please type confirm code</string>
+    <string name="err_login">Please type your email or password</string>
+    <string name="err_signup_fill">Please fill all fields</string>
+    <string name="err_signup_pass_not_match">Password is not matched</string>
+
+
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="err_msg_matchpassword">Password doesn\'t match to above password. </string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="add_on">Add-on codes</string>
+    <string name="internet_error">Please check internet connection</string>
+
+    <string name="internet_disconnect">Internet disconnect</string>
+
+
+    <string name="home_logo_title">Welcome to O&amp;P Tree!</string>
+    <string name="home_logo_msg">Thank you for downloading O&amp;P Tree, the first mobile application for orthotic and prosthetic coding.
+You can search for codes by description or with the advanced decision tree search function.</string>
+
+    <string name="success_added">Successfully added to favorite codes</string>
+    <string name="success_added_delete">Successfully deleted from favorites codes</string>
+
+    <string name="server_error">Something went wrong… \nServer Error</string>
+</resources>

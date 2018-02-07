@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_name"
+            android:icon="@drawable/search_name"
+            android:title="Search by name" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/category_search"
+            android:title="Search by category" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/favorites_fill"
+            android:title="Favourites" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart_add"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_glossary"
+            android:icon="@drawable/glossary"
+            android:title="Glossary" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

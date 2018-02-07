@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp"
+    tools:layout_editor_absoluteX="@dimen/_8sdp"
+    tools:layout_editor_absoluteY="@dimen/_8sdp">
+
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/icon_black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSearchByName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:background="@drawable/button_bg"
+            android:text="Search by List"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp" />
+
+        <Button
+            android:id="@+id/btnSearchByCategory"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/button_bg"
+            android:text="Search by Category"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp" />
+
+
+        <Button
+            android:id="@+id/btnFavorite"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/button_bg"
+            android:text="Favorites"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp" />
+
+        <Button
+            android:id="@+id/btnCart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/button_bg"
+            android:text="Cart"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp" />
+
+        <Button
+            android:id="@+id/btnGlossary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/button_bg"
+            android:text="Glossary"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp" />
+
+    </LinearLayout>
+</LinearLayout>
+
